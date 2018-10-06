@@ -1,0 +1,20 @@
+q1.
+
+True
+
+q2.
+
+<class 'bool'>
+
+q3.
+
+Hello. World
+
+q4.
+
+67865
+
+q5.
+
+3.14159
+<class 'float'>
