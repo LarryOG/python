@@ -1,4 +1,5 @@
 try:
+
     number_of_students = int(input('Enter the number of students in the class: '))
     if number_of_students <=0:
         print('Invalid number of students. Try again!')
