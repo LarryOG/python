@@ -3,10 +3,10 @@ Working solution to Task 6 to the logbook. Further description to be written.
 
 
 """
+import sys, random
 
 
 def email_at_domain (domain, email):
-    import sys
     if email.count('@') != 1 or email[0] == '@' or email.split('@')[1] != domain:
         print('Email ', email, ' is not valid at ', domain)
         raise SystemExit
@@ -15,7 +15,6 @@ def email_at_domain (domain, email):
 
 
 def random_pick(some_list):
-    import random
     return random.choice(some_list)
 
 
@@ -29,7 +28,6 @@ def one_in_another (question, word):
 
 
 def random_exit():
-    import sys, random
     percentage_chance = 15
 
     if random.randint(0, 100) < percentage_chance:
