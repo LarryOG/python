@@ -24,5 +24,6 @@ for i in range (Number_of_Results):
     elif goals_scored_in_games[i] == goals_against_in_games[i]:
      draws += 1
 points = wins * 3 + draws
-print(Team_Name.capitalize() + ': ','\nWins: ', wins,'\nDraws: ', draws, '\nLoses: ',loses,'\nPoints: ',points)
+print(Team_Name.capitalize() + ': ','\nWins: ', wins,'\nDraws: ', draws,
+      '\nLoses: ',loses,'\nPoints: ',points)
 
