@@ -1,8 +1,3 @@
-"""
-Working solution to Task 6 to the logbook. Further description to be written.
-
-
-"""
 import sys, random
 
 
@@ -49,7 +44,8 @@ user_email = input('Enter email: ')
 email_at_domain(DOMAIN, user_email)
 
 
-print('Hi', left_part_of_email(user_email).capitalize(), 'my name is ', random_pick(NAMES), ' How can I help you today?')
+print('Hi', left_part_of_email(user_email).capitalize(), 'my name is ',
+      random_pick(NAMES), ' How can I help you today?')
 while 1:
     user_question = input(' ')
     ending_line = 'goodbye'
